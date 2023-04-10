@@ -1,0 +1,102 @@
+footer{
+  background-color: #E9FBF9;
+  padding: 70px 0;
+  .footer{
+    margin-bottom: 70px;
+    h1{
+      font-size: 44px;
+      line-height: 56px;
+      text-align: center;
+    }
+    .footer__btns{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 27px;
+      margin-top: 45px;
+      margin-bottom: 114px;
+      p{
+        color: #FF823B;
+        font-size: 18px;
+      }
+      .footer__btn{
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        padding: 18px 39px;
+        background-color: #FF823B;
+        border-radius: 31px;
+        p{
+          color: #fff;
+        }
+        span{
+          color: #fff;
+        }
+      }
+    }
+    .footer__nav {
+      ul {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        li:first-child{
+          p{
+            color: #FF823B;
+            font-size: 12px;
+          }
+        }
+        li:nth-child(2){
+          ul{
+            display: flex;
+            gap: 70px;
+            li{
+              color: #124F48;
+              transition: .5s;
+            }
+            li:hover{
+              color: #FF823B;
+              transition: .5s;
+              font-weight: 700;
+            }
+          }
+        }
+        li:nth-child(3){
+          ul{
+            display: block;
+            li{
+            margin-bottom: 10px;
+              color: #124F48;
+              transition: .5s;
+              a{
+                color: #124F48;
+              }
+            }
+            li:hover{
+              color: #FF823B;
+              transition: .5s;
+              font-weight: 700;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.footer__bottom{
+  background-color: #124F48;
+  padding: 16px 0;
+    .footer__follow{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      p{
+        color: #fff;
+        font-size: 18px;
+      }
+      .footer__follow__social-media{
+        display: flex;
+        gap:30px
+      }
+    }
+}

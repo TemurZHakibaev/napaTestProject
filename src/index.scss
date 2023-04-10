@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+}
+
+.container{
+    width: 1100px;
+    margin: auto;
+}
+
+.header-container{
+    width: 1319px;
+    margin: auto;
+    background-color: #E9FBF9;
+    padding: 51px 121px;
+    border-radius: 30px;
+}
+
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.items-center{
+    display: flex;
+    align-items: center;
+}
+.block{
+    display: block;
+}
+
+.btn{
+    padding: 18px 39px;
+    background-color: #FF823B;
+    color: #fff;
+    border-radius: 31.5px;
+    border: none;
+}
+.bisnes__text{
+    color: #FF6107;
+    padding: 8px 22px;
+    border: 1px solid #F2FAF9;
+}

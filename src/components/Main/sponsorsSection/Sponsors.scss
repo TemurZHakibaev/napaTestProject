@@ -1,0 +1,15 @@
+.sponsors{
+  margin-top: 170px;
+  margin-bottom: 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 30px;
+  li{
+    background-color: #F1FAF9;
+    height: 103px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
