@@ -8,19 +8,40 @@
       font-size: 44px;
       font-weight: 700;
       line-height: 80px;
+      font-family: 'Poppins';
     }
     p{
       color: #464646;
+      font-size: 18px;
       line-height: 30px;
+      margin-right: 30px;
     }
   }
   .bisnes__cards{
     transition: .5s;
+    .bisnes__card:nth-child(2){
+      .bisnes__card-1{
+      background-color: #FFF7CA;
+      }
+    }
+    .bisnes__card:nth-child(3){
+          .bisnes__card-1{
+            background-color: #FFE9E0;
+          }
+        }
     .bisnes__card{
-      img{
-        border: 24px solid #DBFFE9;
+      padding: 20px 30px;
+      border-radius: 20px;
+      transition: .5s;
+      .bisnes__card-1{
+        width: 80px;
+        height: 80px;
+        background-color: #DBFFE9;
         border-radius: 20px;
         margin-bottom: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
       }
       .bisnes__card__text{
         h2{
@@ -37,20 +58,21 @@
       }
       .bisnes__card--btns{
         transition: .5s;
-        .bisnes__card--btn{
-        background: none;
-        display: flex;
-        align-items: center;
-        gap: 15px;
+        display: inline-block;
+        padding: 18px 0;
+        .bisnes__card--btn {
+          display: flex;
+          background: none;
           border: none;
-        }
-        .bisnes__card__arrow{
+          font-weight: 600;
+          font-size: 18px;
           color: #124F48;
         }
       }
     }
     .bisnes__card:hover{
-      box-shadow: 10px 20px rgba(245, 245, 245, 0.8);
+      box-shadow: 1px 1px 22px 0 rgba(239,227,227,0.75);
+      transition: .5s;
       .bisnes__card--btns{
         transition: .5s;
         display: inline-block;
@@ -61,6 +83,7 @@
         .bisnes__card--btn{
           p{
             color: #fff;
+            font-weight: 700;
           }
           span{
             color: #fff;
@@ -68,20 +91,12 @@
         }
       }
     }
-    .bisnes__card:nth-child(2){
-      img{
-        border: 24px solid #FFF7CA!important;
-        border-radius: 20px;
-        margin-bottom: 30px;
-      }
-    }
-
-    .bisnes__card:nth-child(3){
-      img{
-        border: 24px solid #FFE9E0!important;
-        border-radius: 20px;
-        margin-bottom: 30px;
-      }
-    }
+    //.bisnes__card:nth-child(2){
+    //  img{
+    //    border: 24px solid #FFF7CA!important;
+    //    border-radius: 20px;
+    //    margin-bottom: 30px;
+    //  }
+    //}
   }
 }

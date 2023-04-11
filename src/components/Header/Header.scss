@@ -1,6 +1,6 @@
 nav{
   padding-top: 20px;
-  padding-bottom: 90px;
+  padding-bottom: 50px;
   .header__list{
     color: #464646;
     .header__inside__list{
@@ -29,26 +29,30 @@ nav{
 }
 
 .header-container{
+  padding-bottom: 90px;
   display: flex;
   .header-container__left{
-    width: 50%;
+    width: 55%;
     .container__left__text{
       color: #FF6107;
       background-color: #fff;
-      padding: 4px 22px;
+      font-size: 18px;
+      padding: 6px 26px;
       border-radius: 4px;
     }
     .container__left__title{
       color:#021D1A;
       font-size: 64px;
-      font-weight: 800;
-      line-height: 65px;
+      line-height: 80px;
       margin: 30px 0;
+      font-family: 'Poppins';
+      font-weight: 900;
     }
     .container__left__subTitle{
       line-height: 30px;
       font-size: 18px;
       margin-bottom: 51px;
+      font-family: 'Roboto';
     }
     .container__left__btns{
       display: flex;
@@ -72,23 +76,37 @@ nav{
     }
   }
   .header-container__right{
-    width: 50%;
+    width: 45%;
     position: relative;
     .container__right__circle-img{
       position: absolute;
-      top: -60px;
-
+      top: -70px;
+      right: -62px;
+      width: 521px;
+      height: 490px;
+      img{
+      width: 100%;
+      height: 100%;
+      }
     }
     .container__right__person-img{
       position: absolute;
-      right: 50px;
+      right: -160px;
+      top: -20px;
+      width: 800px;
+      height: 630px;
+      img{
+        width: 100%;
+        height: 100%;
+      }
     }
     .container__right__person__vidjets{
       position: absolute;
       background-color: rgba(255, 255, 255, 0.78);
-      padding: 43px 36px;
+      padding: 50px 40px;
       border-radius: 20px;
-      top: 350px;
+      right: 200px;
+      top:430px;
       div:first-child{
         display: flex;
         align-items: center;
@@ -96,14 +114,14 @@ nav{
         img:first-child{
           background-color: #FFC90C;
           border: 10px solid #ffffff60;
-          border-radius: 14px;
-          padding: 12px;
+          border-radius: 18px;
+          padding: 22px;
         }
         img:nth-child(2){
           background-color: #198B39;
           border: 10px solid #DEFFE5;
-          border-radius: 14px;
-          padding: 12px;
+          border-radius: 18px;
+          padding: 22px;
         }
       }
       div:nth-child(2){
@@ -114,14 +132,14 @@ nav{
         img:first-child{
           background-color: #0085FF;
           border: 10px solid #DBEEFF;
-          border-radius: 14px;
-          padding: 12px;
+          border-radius: 18px;
+          padding: 22px 25px;
         }
         img:nth-child(2){
           background-color: #FF7527;
           border: 10px solid #FFEFE5;
-          border-radius: 14px;
-          padding: 12px;
+          border-radius: 18px;
+          padding: 22px;
         }
       }
     }

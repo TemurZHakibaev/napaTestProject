@@ -14,35 +14,41 @@ function BisnessSection(props) {
                 </div>
                 <div className={'bisnes__cards d-flex'}>
                     <div className={'bisnes__card'}>
-                        <img className={'bisnes__card-1'} src={bisnesShop}/>
+                        <div className={'bisnes__card-1'}>
+                            <img src={bisnesShop}/>
+                        </div>
                         <div className={'bisnes__card__text'}>
                             <h2>Business Growing Support</h2>
                             <p>Get every necessary support to grow as <span className={"block"}>business startup</span></p>
                         </div>
                         <div className={'bisnes__card--btns'}>
-                            <button className={'bisnes__card--btn'}><p>Learn More</p> <span><AiOutlineArrowRight/></span></button>
+                            <button className={'bisnes__card--btn'}><p>Learn More</p> <span><AiOutlineArrowRight size={'16'}/></span></button>
                         </div>
                     </div>
 
                     <div className={'bisnes__card'}>
-                        <img className={'bisnes__card-2'} src={bisnesCcr}/>
+                        <div className={'bisnes__card-1'}>
+                            <img  src={bisnesCcr}/>
+                        </div>
                         <div className={'bisnes__card__text'}>
                             <h2>Business Growing Support</h2>
                             <p>Get every necessary support to grow as <span className={"block"}>business startup</span></p>
                         </div>
                         <div className={'bisnes__card--btns'}>
-                            <button className={'bisnes__card--btn'}><p>Learn More</p> <span><AiOutlineArrowRight/></span></button>
+                            <button className={'bisnes__card--btn'}><p>Learn More</p> <span><AiOutlineArrowRight size={'16'}/></span></button>
                         </div>
                     </div>
 
                     <div className={'bisnes__card'}>
-                        <img className={'bisnes__card-3'} src={bisnesKrug}/>
+                        <div className={'bisnes__card-1'}>
+                        <img src={bisnesKrug}/>
+                        </div>
                         <div className={'bisnes__card__text'}>
                             <h2>Business Growing Support</h2>
                             <p>Get every necessary support to grow as <span className={"block"}>business startup</span></p>
                         </div>
                         <div className={'bisnes__card--btns'}>
-                            <button className={'bisnes__card--btn'}><p>Learn More</p> <span><AiOutlineArrowRight/></span></button>
+                            <button className={'bisnes__card--btn'}><p>Learn More</p> <span><AiOutlineArrowRight size={'16'}/></span></button>
                         </div>
                     </div>
                 </div>

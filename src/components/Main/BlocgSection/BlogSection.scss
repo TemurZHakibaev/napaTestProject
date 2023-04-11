@@ -1,5 +1,5 @@
 .blog{
-  margin-top: 140px;
+  margin: 140px 0;
     .blog__text1{
       display: flex;
       justify-content: center;
@@ -9,6 +9,18 @@
   .bisnes__text{
     display: flex;
     justify-content: center;
+    }
+    .blog__btns{
+      display: flex;
+      gap: 20px;
+      justify-content: end;
+      margin-bottom: 50px;
+      button{
+        border: none;
+        font-size: 20px;
+        background: none;
+        color: #021d1a;
+      }
     }
     .blog__text{
       .blog__text__title{
@@ -28,14 +40,22 @@
     .blog__img{
       display: flex;
       justify-content: space-between;
+      border-radius: 10px;
+      width: 1110px;
       .blog__img__left{
+        transition: .5s;
+        border-radius: 10px;
         position: relative;
-        width: 460px;
+        width: 500px;
         padding: 30px 20px;
+        img{
+          width: 460px;
+        }
         .blog__img__left__price{
           position: absolute;
-          right: -40px;
-          top: 3px;
+          right: -2px;
+          top: 1px;
+          z-index: 999;
           padding: 8px 17px;
           background-color: #124F48;
           font-weight: 700;
@@ -54,14 +74,18 @@
           }
         }
         .blog__img__left__btn{
-          display: flex;
+          display: inline-flex;
+          gap: 5px;
           align-items: center;
           color: #124F48;
           margin-top: 45px;
           transition: .5s;
+          padding: 18px 0;
         }
       }
       .blog__img__left:hover{
+        box-shadow: 1px 2px 22px 0 rgba(239,227,227,0.75);
+        transition: .5s;
         .blog__img__left__btn{
           display: inline-flex;
           align-items: center;
@@ -70,8 +94,11 @@
           background-color: #FF6107;
           color: #fff;
           transition: .5s;
-          box-shadow: 20px 24px #F5F5F5;
         }
       }
     }
+}
+
+.swiper-button-prev, .swiper-button-next{
+  font-size: 100px;
 }

@@ -31,7 +31,10 @@
   .work__right{
     padding-top: 50px;
     .work__right__cards{
+      transform: translatex(0);
+      transition: .8s;
       .work__right__card{
+        transition: .5s;
         display: grid;
         align-items: center;
         grid-template-columns: 1fr 1fr 1fr;
@@ -66,5 +69,9 @@
         font-size: 18px;
       }
     }
+  }
+  .work__right__card:hover{
+    transform: translateX(10px);
+    transition: .8s;
   }
 }

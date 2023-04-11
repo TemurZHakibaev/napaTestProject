@@ -11,5 +11,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
+      transform: scale(1);
+    transition: .8s;
+  }
+  li:hover{
+      transform: scale(1.1);
+    transition: .8s;
+  }
+
+  li:active{
+    transform: scale(0.8);
+    transition: .8s;
   }
 }

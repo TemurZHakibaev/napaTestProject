@@ -2,7 +2,7 @@ import React from 'react';
 import Nav from "./Nav";
 import {play, circle, person, shop, money, statistic, trade} from '../../assets/image/index'
 
-function Header(props) {
+function Header() {
     return (
         <header>
             <Nav/>
@@ -24,6 +24,10 @@ function Header(props) {
                 <div className={'header-container__right'}>
                     <div className={'container__right__circle-img'}><img src={circle}/></div>
                     <div className={'container__right__person-img'}><img src={person}/></div>
+                    {/*<div className={'container__right__green-circle-img'}>.</div>*/}
+                    {/*<div className={'container__right__orange-circle-img'}>.</div>*/}
+                    {/*<div className={'container__right__green-yellow-img'}>.</div>*/}
+                    {/*<div className={'container__right__green-blue-img'}>.</div>*/}
                     <din className={'container__right__person__vidjets'}>
                         <div><img src={shop}/><img src={trade}/></div>
                         <div><img src={money}/><img src={statistic}/></div>

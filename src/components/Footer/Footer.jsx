@@ -13,7 +13,7 @@ function Footer() {
                 <h1>Subscribe To Our Newsletter <span className={'block'}>Get The Best Offers</span></h1>
                 <div className={'footer__btns'}>
                     <p>With One Click</p>
-                    <div className={'footer__btn'}><p>Subscribe</p> <span><AiOutlineArrowRight/></span></div>
+                    <div className={'footer__btn'}><p>Subscribe</p> <AiOutlineArrowRight/></div>
                 </div>
                 <div className={'footer__nav'}>
                     <ul>
